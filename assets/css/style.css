@@ -1,0 +1,23 @@
+#main {
+    width: 100%;
+    height: 100vh;
+}
+
+body {
+    background: url(../img/3aef5781-5b74-4241-bc8e-b2aa3b4c6596-keanu-as-neo.jpg) no-repeat center;
+    background-size: cover;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+h1,
+h2 {
+    color: #FFF;
+}
+
+.modal-content {
+    height: 250px;
+    background: url(../img/david_goodenough.jpg) no-repeat center;
+}

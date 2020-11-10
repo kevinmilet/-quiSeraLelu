@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css" class="css">
+    <title>Qui sera l'élu?</title>
+</head>
+
+<body>
+    <div class="container" id="main">
+        <header class="text-center m-4 p4">
+            <h1 class="text-uppercase mb-5">Qui sera l'élu?</h1>
+            <h2 class="mt-3">Qui corrigera l'exercice???? Qui fera un exposé??</h2>
+        </header>
+
+        <div class="container text-center mt-5 p-5">
+            <h2 class="mb-5">"Choisis la pilule bleue et tout s’arrête, après tu pourras faire de beaux rêves et penser
+                ce que tu veux. Choisis la pilule rouge : tu restes au Pays des Merveilles et on descend avec le lapin
+                blanc au fond du gouffre"</h2>
+
+            <button type="button" class="btn btn-primary mr-3" id="btn_blue">La pillule bleue</button>
+            <button type="button" class="btn btn-danger mr-3" data-toggle="modal" data-target="#modal" id="btn_red">La
+                pillule rouge</button>
+            <div id="bluPill"></div>
+            <div class="modal fade" id="modal" tabindex="-1" aria-labelledby="modalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <h5 class="modal-title text-center" id="exampleModalLabel"> Tadaaaaaa!!!! L'heureux élu est:
+                        </h5>
+                        <div class="modal-body text-center text-danger font-weight-bolder text-uppercase"
+                            id="leGagnant"></div>
+                        <button type="button" class="close text-right" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                        <!-- <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js"
+        integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous">
+    </script>
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
