@@ -22,10 +22,12 @@
                 ce que tu veux. Choisis la pilule rouge : tu restes au Pays des Merveilles et on descend avec le lapin
                 blanc au fond du gouffre"</h2>
 
+            <!-- Deux boutons pour choisir et afficher le résultat du tirage dans une modale-->
             <button type="button" class="btn btn-primary mr-3" id="btn_blue">La pillule bleue</button>
             <button type="button" class="btn btn-danger mr-3" data-toggle="modal" data-target="#modal" id="btn_red">La
                 pillule rouge</button>
-            <div id="bluPill"></div>
+            
+            <!-- Modale qui affiche le résultat du tirage -->
             <div class="modal fade" id="modal" tabindex="-1" aria-labelledby="modalLabel" aria-hidden="true">
                 <div class="modal-dialog">
                     <div class="modal-content">
@@ -36,7 +38,6 @@
                         <button type="button" class="close text-right" data-dismiss="modal" aria-label="Close">
                             <span aria-hidden="true">&times;</span>
                         </button>
-                        <!-- <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button> -->
                     </div>
                 </div>
             </div>
